@@ -8,11 +8,11 @@ import requests
 
 analyzer = SentimentIntensityAnalyzer()
 
-genai.configure(api_key="AIzaSyAQzFRrJHaJ41PioD-tPz8t-c5STE_v_C4")  # Replace with your actual API key
+genai.configure(api_key="yourapikey")  # Replace with your actual API key
 model = genai.GenerativeModel('gemini-1.5-flash')
 # Email account credentials
-EMAIL = "techfest.datamatics@gmail.com"
-PASSWORD = "aoxa puie emgo kzfd"  # Consider using an app password for security
+EMAIL = "target-mail-id"
+PASSWORD = "password"  # Consider using an app password for security
 IMAP_SERVER = "imap.gmail.com"
 
 previous_email_ids = set()
